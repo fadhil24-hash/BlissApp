@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "531550092197",
+    "project_id": "bliss-cafe-system",
+    "storage_bucket": "bliss-cafe-system.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531550092197:android:0116f0c7234b4c48e9c64c",
+        "android_client_info": {
+          "package_name": "com.example.bliss_server_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-avhXg5ECG9XBWKdiXDhC18xcl4Thlog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531550092197:android:7d831243ccd2c7f5e9c64c",
+        "android_client_info": {
+          "package_name": "com.example.farah_bliss_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-avhXg5ECG9XBWKdiXDhC18xcl4Thlog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

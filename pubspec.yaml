@@ -1,0 +1,41 @@
+name: farah_bliss_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0 # Adjusted for wider compatibility
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_auth: ^5.7.0
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.1.2
+  firebase_core: ^3.4.0
+  cloud_firestore: ^5.4.0
+  firebase_storage: ^12.4.10
+  flutter_image_compress: any
+  http: ^1.2.1
+  shared_preferences: ^2.2.3
+  # This allows the app to open the phone gallery
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+flutter:
+  uses-material-design: true
+
+  # This tells Flutter where your QRIS photo is located
+  assets:
+    - assets/qris_payment.png
+    - assets/Bliss.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/Bliss.png"    
